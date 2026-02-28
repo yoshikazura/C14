@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "Risky Dimas Safariel ",
+    "role": "Mahasiswa Teknik Informatika UKRI",
+    "bio": "Halo, saya mahasiswa teknik Informatika universitas kebangsaan republik indonesia. Selamat datang di website portolio saya, contact me if u needed any information!"
+  },
+  "skills": [
+    { "name": "HTML/CSS", "level": "90%" },
+    { "name": "JavaScript", "level": "75%" },
+    { "name": "UI Design", "level": "80%" },
+    { "name": "Node.js", "level": "60%" }
+  ],
+  "links": [
+    {
+      "title": "WhatsApp Me",
+      "url": "https://wa.me/6285624549162",
+      "icon": "fa-brands fa-whatsapp"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/r_dims21?igsh=Ynh2OXBjMnB2NDN3",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "title": "Facebook",
+      "url": "https://facebook.com/hmif_ukri",
+      "icon": "fa-brands fa-facebook"
+    },
+    {
+      "title": "LinkedIn Profile",
+      "url": "https://linkedin.com/in/himpunan-mahasiswa-teknik-informatika-hmif-ukri",
+      "icon": "fa-brands fa-linkedin"
+    }
+  ]
+}

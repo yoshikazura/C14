@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Risky Dimas | Tech Founder & Fullstack</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <div id="loader">
+    <div class="loader-content">
+      <h1 class="loader-text">RISKY DIMAS</h1>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR  -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">R<span>D.</span></div>
+    
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#guestbook">Guestbook</a></li>
+    </ul>
+  </nav>
+
+  <!--  HERO  -->
+  <section class="hero" id="about">
+    <div class="hero-content reveal">
+      <div class="avatar-container">
+        <div class="avatar-ring"></div>
+        <img class="avatar" src="./image/logo_metaforsa.png" alt="Foto Profil" onerror="this.src='https://ui-avatars.com/api/?name=Risky+Dimas&background=06b6d4&color=fff&size=150'" />
+      </div>
+      <div class="hero-text-wrapper">
+        <h1 id="name">Risky Dimas Safariel</h1>
+        <h2 id="role">Fullstack Developer</h2>
+        <p id="bio">
+          Membangun solusi modern berbasis web dengan integrasi Frontend, Backend, dan IoT.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Selected Projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--PROJECTS -->
+  <section class="projects-section" id="projects">
+    <div class="section-header reveal">
+      <span class="badge">Portfolio</span>
+      <h2 class="section-title">Selected Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card reveal glass">
+        <div class="project-img bg-grad-1"></div>
+        <div class="project-info">
+          <h3>SaaS Dashboard Analytics</h3>
+          <p>Platform analitik real-time untuk memonitor trafik dan performa sales dengan integrasi AI insight.</p>
+          <div class="tech-stack">
+            <span>Next.js</span><span>Express</span><span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> Source</a>
+            <a href="#" class="btn-icon primary"><i class="fa-solid fa-earth-americas"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card reveal glass">
+        <div class="project-img bg-grad-2"></div>
+        <div class="project-info">
+          <h3>Smart Home IoT Hub</h3>
+          <p>Sistem automasi rumah pintar berbasis web untuk kontrol lampu dan suhu via ESP32 dan MQTT.</p>
+          <div class="tech-stack">
+            <span>React</span><span>Node.js</span><span>IoT</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> Source</a>
+            <a href="#" class="btn-icon primary"><i class="fa-solid fa-earth-americas"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-card reveal glass">
+        <div class="project-img bg-grad-3"></div>
+        <div class="project-info">
+          <h3>E-Commerce Microservices</h3>
+          <p>Arsitektur microservices untuk platform e-commerce dengan sistem payment gateway otomatis.</p>
+          <div class="tech-stack">
+            <span>Express</span><span>MySQL</span><span>Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> Source</a>
+            <a href="#" class="btn-icon primary"><i class="fa-solid fa-earth-americas"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project-card reveal glass">
+        <div class="project-img bg-grad-4"></div>
+        <div class="project-info">
+          <h3>AI Chat Assistant</h3>
+          <p>Implementasi LLM terintegrasi dalam website untuk layanan pelanggan otomatis berbasis RAG.</p>
+          <div class="tech-stack">
+            <span>Vanilla JS</span><span>Python</span><span>OpenAI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> Source</a>
+            <a href="#" class="btn-icon primary"><i class="fa-solid fa-earth-americas"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <div class="section-header reveal">
+      <span class="badge">Expertise</span>
+      <h2 class="section-title">Technical Skills</h2>
+    </div>
+
+    <div class="skills-wrapper">
+      <!-- FRONTEND -->
+      <div class="skill-card reveal glass">
+        <h3><i class="fa-solid fa-code"></i> Frontend</h3>
+        <div class="skill-item">
+          <span>React / Next.js <i class="fa-brands fa-react"></i></span>
+          <div class="progress"><div class="bar" data-percent="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>JavaScript (ES6+) <i class="fa-brands fa-js"></i></span>
+          <div class="progress"><div class="bar" data-percent="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>HTML5 & CSS3 <i class="fa-brands fa-html5"></i></span>
+          <div class="progress"><div class="bar" data-percent="95"></div></div>
+        </div>
+      </div>
+
+      <!-- BACKEND -->
+      <div class="skill-card reveal glass">
+        <h3><i class="fa-solid fa-server"></i> Backend & DB</h3>
+        <div class="skill-item">
+          <span>Node.js / Express <i class="fa-brands fa-node"></i></span>
+          <div class="progress"><div class="bar" data-percent="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>MongoDB <i class="fa-solid fa-leaf"></i></span>
+          <div class="progress"><div class="bar" data-percent="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>MySQL <i class="fa-solid fa-database"></i></span>
+          <div class="progress"><div class="bar" data-percent="75"></div></div>
+        </div>
+      </div>
+
+      <!-- DEVOPS & TOOLS -->
+      <div class="skill-card reveal glass">
+        <h3><i class="fa-solid fa-toolbox"></i> DevOps & Tools</h3>
+        <div class="skill-item">
+          <span>Git / Docker <i class="fa-brands fa-docker"></i></span>
+          <div class="progress"><div class="bar" data-percent="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Postman / API <i class="fa-solid fa-plug"></i></span>
+          <div class="progress"><div class="bar" data-percent="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Vercel / Railway <i class="fa-solid fa-cloud"></i></span>
+          <div class="progress"><div class="bar" data-percent="80"></div></div>
+        </div>
+      </div>
+      
+      <!-- IOT -->
+      <div class="skill-card reveal glass">
+        <h3><i class="fa-solid fa-microchip"></i> IoT & Hardware</h3>
+        <div class="skill-item">
+          <span>ESP / Sensors <i class="fa-solid fa-wifi"></i></span>
+          <div class="progress"><div class="bar" data-percent="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Automation Logic <i class="fa-solid fa-gears"></i></span>
+          <div class="progress"><div class="bar" data-percent="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GUESTBOOK ================= -->
+  <section class="guestbook-section" id="guestbook">
+    <div class="section-header reveal">
+      <span class="badge">Connection</span>
+      <h2 class="section-title">Leave a Message</h2>
+    </div>
+
+    <div class="guestbook-container reveal">
+      <form id="guestbook-form" class="form glass">
+        <div class="input-group">
+          <i class="fa-solid fa-user"></i>
+          <input id="gb-name" type="text" placeholder="Your Name" autocomplete="off" required />
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-comment-dots"></i>
+          <textarea id="gb-message" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+      </form>
+
+      <div id="messages-list" class="messages">
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING CHAT -->
+  <div id="chat-toggle" class="chat-toggle pulse-anim">
+    <i class="fa-solid fa-robot"></i>
+  </div>
+
+  <div id="chat-modal" class="chat-modal glass-heavy">
+    <div class="chat-header">
+      <div class="chat-title">
+        <i class="fa-solid fa-robot"></i> System.AI
+      </div>
+      <button id="close-chat"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+      <div class="msg bot-msg">
+        <div class="msg-avatar"><i class="fa-solid fa-robot"></i></div>
+        <div class="msg-bubble">System initialized. How can I assist you today?</div>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input id="user-input" type="text" placeholder="Ask me anything..." autocomplete="off" />
+      <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <!--  FOOTER -->
+  <footer class="footer glass-top">
+    <div class="footer-content">
+      <div class="footer-brand">R<span>D.</span></div>
+      <p class="footer-tagline">Building elegant digital experiences.</p>
+      
+      <div class="social-icons">
+        <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="#" class="footer-link">HMIF <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="footer-link">UKRI <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>&copy; <span id="current-year"></span> Risky Dimas Safariel. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
